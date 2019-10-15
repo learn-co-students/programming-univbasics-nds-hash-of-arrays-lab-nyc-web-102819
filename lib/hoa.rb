@@ -6,6 +6,6 @@ BASE_HOA = {
 
 
 def add_character(show, name)
-  # Write your implementation here
-  # Should return the array of the 'show' argument
+  new_hash = BASE_HOA
+  new_hash[show].append(name)
 end
